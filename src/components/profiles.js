@@ -9,6 +9,9 @@ export default function profiles({Leaderboard}) {
 }
 
 function Item(data){
+
+  data = data.sort((a, b) => b.score - a.score)
+
   return(
     <>
       {
