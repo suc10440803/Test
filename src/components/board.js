@@ -7,7 +7,7 @@ export default function board() {
   
     return (
     <div className='board'>
-        <h1 className='leaderboard'>Leaderboard</h1>
+        <h1 className='leaderboard'>2023 NCCU CS Camp Leaderboard</h1>
         <Profiles Leaderboard = {Leaderboard}></Profiles>
     </div>
 
