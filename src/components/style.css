@@ -76,6 +76,8 @@
 #profile .flex .item{
     display: flex;
     align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 #profile .flex img{
